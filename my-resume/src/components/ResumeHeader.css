@@ -1,0 +1,47 @@
+.resume-header {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-bottom: 2px solid #222;
+  text-align: center;
+}
+
+.header-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.resume-header h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #222;
+}
+
+.designation {
+  margin: 8px 0 15px;
+  font-size: 18px;
+  color: #555;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  font-size: 14px;
+  color: #333;
+}
+
+.links {
+  margin-top: 15px;
+}
+
+.links a {
+  margin: 0 10px;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
