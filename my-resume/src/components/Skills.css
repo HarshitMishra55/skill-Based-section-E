@@ -1,0 +1,155 @@
+.skills {
+  width: 90%;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 35px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+.skills-title {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.skills-icon {
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px;
+  background: #eef4ff;
+  color: #2563eb;
+
+  font-size: 23px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.skills-title h2 {
+  margin: 0;
+  font-size: 32px;
+  color: #111827;
+}
+
+.skills-title p {
+  margin: 7px 0 0;
+  color: #6b7280;
+  font-size: 15px;
+}
+
+.skills-content {
+  margin-top: 10px;
+}
+
+.skill-group {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 30px;
+
+  padding: 28px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.skill-group:last-child {
+  border-bottom: none;
+}
+
+.skill-group h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #111827;
+}
+
+.skill-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skill-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.skill-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #d1d5db;
+}
+
+.dot.active {
+  background: #2563eb;
+}
+
+
+/* Tablet */
+
+@media (max-width: 900px) {
+
+  .skill-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .skills {
+    width: 92%;
+    padding: 25px;
+  }
+
+  .skill-group {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .skill-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* Small Mobile */
+
+@media (max-width: 450px) {
+
+  .skills-title h2 {
+    font-size: 27px;
+  }
+
+  .skills-title p {
+    font-size: 13px;
+  }
+
+  .skill-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+
+}

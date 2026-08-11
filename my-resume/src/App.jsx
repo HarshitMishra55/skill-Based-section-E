@@ -4,9 +4,9 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Header from './components/Header'
-import Demo from './components/Demo'
 import ResumeHeader from './components/ResumeHeader'
 import Education from './components/Education'
+import Skills from './components/Skills'
 
 function App() {
 
@@ -14,9 +14,7 @@ function App() {
     <>
       <ResumeHeader />
       <Education />
-      <Header />
-      <Demo />
-      <p>naya vchange kiya hai</p>
+      <Skills />
     </>
   )
 }
